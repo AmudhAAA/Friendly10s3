@@ -46,12 +46,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Game5.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Game5.Designer.cs">
-      <DependentUpon>Game5.cs</DependentUpon>
-    </Compile>
     <Compile Include="Game1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +69,12 @@
     </Compile>
     <Compile Include="Game4.Designer.cs">
       <DependentUpon>Game4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game5.Designer.cs">
+      <DependentUpon>Game5.cs</DependentUpon>
     </Compile>
     <Compile Include="Globals.cs" />
     <Compile Include="Program.cs" />
