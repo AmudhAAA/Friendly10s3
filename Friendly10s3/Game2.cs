@@ -7,23 +7,32 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using System.Media; /// allows us to use media files such as audio files///
-///
 
 namespace Friendly10s3
 {
-    public partial class Game1 : Form
+    public partial class Game2 : Form
     {
         public static int tally = 0; /// the value of the button the user presses on is added to the variable: tally, ensuring they make a pair that adds up to ten///
         public static int count = 0; /// this variable counts the number of times buttons are pressed, ensuring the user clicks on two buttons to add up to ten///
         public static int successCount = 0; /// after every successful pair, two is added to this tally until it exceeds 8 ( meaning four pairs have succesfully matched) ///
         public static int errorcount = 0;// counts the number of times the user's mistakes initiate the error() subroutine
         List<Button> btd = new List<Button>(); /// makes sure the right button dissapears when clicked on///
-        public Game1()
+        public Game2()
         {
             InitializeComponent();
             label1.Text = "0";
+            button1.Text = "2";
+            button2.Text = "18";
+            button3.Text = "4";
+            button4.Text = "16";
+            button5.Text = "6";
+            button6.Text = "14";
+            button7.Text = "8";
+            button8.Text = "12";
+            button9.Text = "10";
+            button10.Text = "10";
         }
+
         public void button1_Click(object sender, EventArgs e)
         {
 
@@ -98,7 +107,7 @@ namespace Friendly10s3
         {
             timer1.Enabled = true;
             pictureBox4.Visible = true; /// a previously hidden image appears, revealing a red "fail'///
-            
+
             tally = 0; ///tally and count are reset back to zero, ready for the next pair the user makes///
             count = 0;
             errorcount = errorcount + 1; ///1 is added to the erorr count of the user which is used to see if they are allowed to progress to the next level///
@@ -109,12 +118,12 @@ namespace Friendly10s3
         {
             timer2.Enabled = true;
             pictureBox3.Visible = true; ///a previously hidden image appears, revealing a success image///
-            
+
             tally = 0;
             count = 0;
             successCount = successCount + 2; ///2 is added to the success count which determines when the option to progress to the next level appears///
 
-            
+
             foreach (Button x in btd) /// all the buttons added to the list which is all the buttons clicked on is made invisible///
             {
                 x.Visible = false;
@@ -142,7 +151,7 @@ namespace Friendly10s3
         }
 
 
-        
+
 
         private void timer1_Tick(object sender, EventArgs e)
         {
@@ -219,13 +228,13 @@ namespace Friendly10s3
 
         }
 
-        
 
-              
+
+
         public void button11_Click(object sender, EventArgs e) // takes to next level///
         {
             Friendly10s3.Globals.currentlevel++;
-            Friendly10s3.Game2 f2 = new Friendly10s3.Game2();
+            Friendly10s3.Game1 f2 = new Friendly10s3.Game1();
             f2.ShowDialog();
         }
         public void Progress() /// this subroutine checks if the user is ready to progress to the next level which is when the success count is over 8 ( meaning they have matched four pairs) and when they have made less than two errors. If they have successfully matched four pairs but made more than two errors, only the option to retry that level is provided///
@@ -276,9 +285,7 @@ namespace Friendly10s3
             Retry();
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-
-        }
+       
     }
 }
+
