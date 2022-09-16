@@ -80,7 +80,7 @@
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(190, 40);
             this.button11.TabIndex = 61;
-            this.button11.Text = "Level 2";
+            this.button11.Text = "Level 3";
             this.button11.UseVisualStyleBackColor = true;
             this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
@@ -226,7 +226,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Game20
+            // Game2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -247,8 +247,9 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Game20";
+            this.Name = "Game2";
             this.Text = "Game20";
+            this.Load += new System.EventHandler(this.Game2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
