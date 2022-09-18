@@ -10,27 +10,27 @@ using System.Windows.Forms;
 
 namespace Friendly10s3
 {
-    public partial class Game6 : Form
+    public partial class Game7 : Form
     {
         public static int tally = 0; /// the value of the button the user presses on is added to the variable: tally, ensuring they make a pair that adds up to ten///
         public static int count = 0; /// this variable counts the number of times buttons are pressed, ensuring the user clicks on two buttons to add up to ten///
         public static int successCount = 0; /// after every successful pair, two is added to this tally until it exceeds 8 ( meaning four pairs have succesfully matched) ///
         public static int errorcount = 0;// counts the number of times the user's mistakes initiate the error() subroutine
         List<Button> btd = new List<Button>(); /// makes sure the right button dissapears when clicked on///
-        public Game6()
+        public Game7()
         {
             InitializeComponent();
             label1.Text = "0";
-            button1.Text = "6";
-            button2.Text = "54";
-            button3.Text = "12";
-            button4.Text = "48";
-            button5.Text = "18";
-            button6.Text = "42";
-            button7.Text = "24";
-            button8.Text = "36";
-            button9.Text = "30";
-            button10.Text = "30";
+            button1.Text = "7";
+            button2.Text = "63";
+            button3.Text = "14";
+            button4.Text = "56";
+            button5.Text = "21";
+            button6.Text = "49";
+            button7.Text = "28";
+            button8.Text = "42";
+            button9.Text = "35";
+            button10.Text = "35";
         }
         public void button1_Click(object sender, EventArgs e)
         {
@@ -233,8 +233,8 @@ namespace Friendly10s3
         public void button11_Click(object sender, EventArgs e) // takes to next level///
         {
             Friendly10s3.Globals.currentlevel++;
-            Friendly10s3.Game7 f7 = new Friendly10s3.Game7();
-            f7.ShowDialog();
+            Friendly10s3.Game8 f8 = new Friendly10s3.Game8();
+            f8.ShowDialog();
         }
         public void Progress() /// this subroutine checks if the user is ready to progress to the next level which is when the success count is over 8 ( meaning they have matched four pairs) and when they have made less than two errors. If they have successfully matched four pairs but made more than two errors, only the option to retry that level is provided///
         {
@@ -283,7 +283,7 @@ namespace Friendly10s3
         {
             Retry();
         }
-        private void Game6_Load(object sender, EventArgs e)
+        private void Game7_Load(object sender, EventArgs e)
         {
 
         }
