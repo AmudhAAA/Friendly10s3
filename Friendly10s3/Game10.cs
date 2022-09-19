@@ -230,32 +230,8 @@ namespace Friendly10s3
 
 
 
-        public void button11_Click(object sender, EventArgs e) // takes to next level///
-        {
-            Friendly10s3.Globals.currentlevel++;
-            Friendly10s3.Game9 f8 = new Friendly10s3.Game9();
-            f8.ShowDialog();
-        }
-        public void Progress() /// this subroutine checks if the user is ready to progress to the next level which is when the success count is over 8 ( meaning they have matched four pairs) and when they have made less than two errors. If they have successfully matched four pairs but made more than two errors, only the option to retry that level is provided///
-        {
-            if (successCount >= 8)
-            {
-                button12.Visible = true;
-
-                if (errorcount <= 2)
-                {
-                    button11.Visible = true;
-
-                }
-
-            }
-            else
-            {
-                button11.Visible = false;
-
-            }
-
-        }
+        
+        
         public void Retry() ///the retry subroutine resets everything, allowing the uesr to retry the level//
         {
             errorcount = 0; ///errorcount is reset back to 0///

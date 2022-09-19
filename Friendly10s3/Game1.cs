@@ -18,6 +18,8 @@ namespace Friendly10s3
         public static int count = 0; /// this variable counts the number of times buttons are pressed, ensuring the user clicks on two buttons to add up to ten///
         public static int successCount = 0; /// after every successful pair, two is added to this tally until it exceeds 8 ( meaning four pairs have succesfully matched) ///
         public static int errorcount = 0;// counts the number of times the user's mistakes initiate the error() subroutine
+        public static int latesterror=0;
+        public static int progress =0;
         List<Button> btd = new List<Button>(); /// makes sure the right button dissapears when clicked on///
         public Game1()
         {
@@ -250,6 +252,7 @@ namespace Friendly10s3
         }
         public void Retry() ///the retry subroutine resets everything, allowing the uesr to retry the level//
         {
+            latesterror = errorcount;
             errorcount = 0; ///errorcount is reset back to 0///
             successCount = 0; ///successcount is reset back to 0///
             tally = 0; ///tally and count is resent back to 0///
@@ -284,6 +287,13 @@ namespace Friendly10s3
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Friendly10s3.Globals.currentlevel++;
+            Friendly10s3.Homepage f0 = new Friendly10s3.Homepage();
+            f0.ShowDialog();
         }
     }
 }

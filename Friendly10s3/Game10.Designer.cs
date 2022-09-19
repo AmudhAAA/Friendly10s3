@@ -32,7 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game10));
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button12 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -72,15 +71,6 @@
             this.button12.TabIndex = 190;
             this.button12.Text = "Retry";
             this.button12.UseVisualStyleBackColor = true;
-            // 
-            // button11
-            // 
-            this.button11.Location = new System.Drawing.Point(1378, 109);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(190, 40);
-            this.button11.TabIndex = 189;
-            this.button11.Text = "Level 9";
-            this.button11.UseVisualStyleBackColor = true;
             // 
             // label1
             // 
@@ -219,7 +209,6 @@
             this.ClientSize = new System.Drawing.Size(1688, 914);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button12);
-            this.Controls.Add(this.button11);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
@@ -248,7 +237,6 @@
 
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
