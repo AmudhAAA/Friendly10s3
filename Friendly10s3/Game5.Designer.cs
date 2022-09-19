@@ -130,6 +130,7 @@
             // 
             this.timer2.Enabled = true;
             this.timer2.Interval = 2000;
+            this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
             // button9
             // 
@@ -159,7 +160,7 @@
             this.button7.TabIndex = 103;
             this.button7.Text = "4";
             this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button4_Click);
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -215,6 +216,7 @@
             // 
             this.timer1.Enabled = true;
             this.timer1.Interval = 2000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // button1
             // 

@@ -180,7 +180,7 @@
             this.button5.TabIndex = 149;
             this.button5.Text = "3";
             this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button3_Click);
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
