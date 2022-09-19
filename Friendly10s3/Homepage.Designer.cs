@@ -55,6 +55,29 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.progressBar5 = new System.Windows.Forms.ProgressBar();
+            this.button17 = new System.Windows.Forms.Button();
+            this.progressBar6 = new System.Windows.Forms.ProgressBar();
+            this.button18 = new System.Windows.Forms.Button();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.progressBar7 = new System.Windows.Forms.ProgressBar();
+            this.button19 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.progressBar8 = new System.Windows.Forms.ProgressBar();
+            this.button20 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.progressBar9 = new System.Windows.Forms.ProgressBar();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.progressBar10 = new System.Windows.Forms.ProgressBar();
+            this.button22 = new System.Windows.Forms.Button();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.progressBar11 = new System.Windows.Forms.ProgressBar();
+            this.button23 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -285,11 +308,227 @@
             this.button16.UseVisualStyleBackColor = true;
             this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(366, 846);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(97, 31);
+            this.textBox6.TabIndex = 26;
+            this.textBox6.Text = "Matches";
+            // 
+            // progressBar5
+            // 
+            this.progressBar5.Location = new System.Drawing.Point(485, 841);
+            this.progressBar5.Name = "progressBar5";
+            this.progressBar5.Size = new System.Drawing.Size(181, 36);
+            this.progressBar5.TabIndex = 27;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(672, 839);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(132, 38);
+            this.button17.TabIndex = 28;
+            this.button17.Text = "Start";
+            this.button17.UseVisualStyleBackColor = true;
+            this.button17.Click += new System.EventHandler(this.button17_Click);
+            // 
+            // progressBar6
+            // 
+            this.progressBar6.Location = new System.Drawing.Point(485, 981);
+            this.progressBar6.Name = "progressBar6";
+            this.progressBar6.Size = new System.Drawing.Size(181, 36);
+            this.progressBar6.TabIndex = 29;
+            // 
+            // button18
+            // 
+            this.button18.Location = new System.Drawing.Point(672, 979);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(132, 38);
+            this.button18.TabIndex = 30;
+            this.button18.Text = "Start";
+            this.button18.UseVisualStyleBackColor = true;
+            this.button18.Click += new System.EventHandler(this.button18_Click);
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(366, 986);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(97, 31);
+            this.textBox7.TabIndex = 31;
+            this.textBox7.Text = "Matches";
+            // 
+            // monthCalendar1
+            // 
+            this.monthCalendar1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.monthCalendar1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
+            this.monthCalendar1.Location = new System.Drawing.Point(1348, 76);
+            this.monthCalendar1.Name = "monthCalendar1";
+            this.monthCalendar1.TabIndex = 32;
+            this.monthCalendar1.TitleBackColor = System.Drawing.Color.Brown;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(900, 430);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(97, 31);
+            this.textBox8.TabIndex = 33;
+            this.textBox8.Text = "Matches";
+            // 
+            // progressBar7
+            // 
+            this.progressBar7.Location = new System.Drawing.Point(1017, 436);
+            this.progressBar7.Name = "progressBar7";
+            this.progressBar7.Size = new System.Drawing.Size(181, 36);
+            this.progressBar7.TabIndex = 34;
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(1204, 430);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(132, 38);
+            this.button19.TabIndex = 35;
+            this.button19.Text = "Start";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(900, 571);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(97, 31);
+            this.textBox9.TabIndex = 36;
+            this.textBox9.Text = "Matches";
+            // 
+            // progressBar8
+            // 
+            this.progressBar8.Location = new System.Drawing.Point(1017, 566);
+            this.progressBar8.Name = "progressBar8";
+            this.progressBar8.Size = new System.Drawing.Size(181, 36);
+            this.progressBar8.TabIndex = 37;
+            // 
+            // button20
+            // 
+            this.button20.Location = new System.Drawing.Point(1204, 564);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(132, 38);
+            this.button20.TabIndex = 38;
+            this.button20.Text = "Start";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Click += new System.EventHandler(this.button20_Click);
+            // 
+            // button21
+            // 
+            this.button21.Location = new System.Drawing.Point(1204, 699);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(132, 38);
+            this.button21.TabIndex = 39;
+            this.button21.Text = "Start";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Click += new System.EventHandler(this.button21_Click);
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(900, 703);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(97, 31);
+            this.textBox10.TabIndex = 40;
+            this.textBox10.Text = "Matches";
+            // 
+            // progressBar9
+            // 
+            this.progressBar9.Location = new System.Drawing.Point(1017, 701);
+            this.progressBar9.Name = "progressBar9";
+            this.progressBar9.Size = new System.Drawing.Size(181, 36);
+            this.progressBar9.TabIndex = 41;
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(900, 839);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(97, 31);
+            this.textBox11.TabIndex = 42;
+            this.textBox11.Text = "Matches";
+            // 
+            // progressBar10
+            // 
+            this.progressBar10.Location = new System.Drawing.Point(1017, 834);
+            this.progressBar10.Name = "progressBar10";
+            this.progressBar10.Size = new System.Drawing.Size(181, 36);
+            this.progressBar10.TabIndex = 43;
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(1204, 835);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(132, 38);
+            this.button22.TabIndex = 44;
+            this.button22.Text = "Start";
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(900, 979);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.Size = new System.Drawing.Size(97, 31);
+            this.textBox12.TabIndex = 45;
+            this.textBox12.Text = "Matches";
+            // 
+            // progressBar11
+            // 
+            this.progressBar11.Location = new System.Drawing.Point(1017, 981);
+            this.progressBar11.Name = "progressBar11";
+            this.progressBar11.Size = new System.Drawing.Size(181, 36);
+            this.progressBar11.TabIndex = 46;
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(1204, 975);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(132, 38);
+            this.button23.TabIndex = 47;
+            this.button23.Text = "Start";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(1419, 41);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(132, 25);
+            this.label1.TabIndex = 48;
+            this.label1.Text = "Your Streak:";
+            // 
             // Homepage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1688, 1029);
+            this.ClientSize = new System.Drawing.Size(1761, 1029);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button23);
+            this.Controls.Add(this.progressBar11);
+            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.button22);
+            this.Controls.Add(this.progressBar10);
+            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.progressBar9);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.button21);
+            this.Controls.Add(this.button20);
+            this.Controls.Add(this.progressBar8);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.button19);
+            this.Controls.Add(this.progressBar7);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.monthCalendar1);
+            this.Controls.Add(this.textBox7);
+            this.Controls.Add(this.button18);
+            this.Controls.Add(this.progressBar6);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.progressBar5);
+            this.Controls.Add(this.textBox6);
             this.Controls.Add(this.button16);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.textBox5);
@@ -353,5 +592,28 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.ProgressBar progressBar5;
+        private System.Windows.Forms.Button button17;
+        private System.Windows.Forms.ProgressBar progressBar6;
+        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.ProgressBar progressBar7;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.ProgressBar progressBar8;
+        private System.Windows.Forms.Button button20;
+        private System.Windows.Forms.Button button21;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.ProgressBar progressBar9;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.ProgressBar progressBar10;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.ProgressBar progressBar11;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Label label1;
     }
 }

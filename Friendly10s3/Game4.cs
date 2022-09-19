@@ -288,5 +288,11 @@ namespace Friendly10s3
         {
 
         }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            Friendly10s3.Homepage f0 = new Friendly10s3.Homepage();
+            f0.ShowDialog();
+        }
     }
 }

@@ -47,6 +47,8 @@
             this.button2 = new System.Windows.Forms.Button();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.button1 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -202,11 +204,32 @@
             this.button1.Text = "1";
             this.button1.UseVisualStyleBackColor = true;
             // 
+            // button13
+            // 
+            this.button13.Location = new System.Drawing.Point(1386, 238);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(182, 32);
+            this.button13.TabIndex = 193;
+            this.button13.Text = "Home";
+            this.button13.UseVisualStyleBackColor = true;
+            this.button13.Click += new System.EventHandler(this.button13_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(1417, 56);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(109, 25);
+            this.label2.TabIndex = 194;
+            this.label2.Text = "No. Errors";
+            // 
             // Game10
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1688, 914);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.button13);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.button12);
             this.Controls.Add(this.label1);
@@ -252,5 +275,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Label label2;
     }
 }
