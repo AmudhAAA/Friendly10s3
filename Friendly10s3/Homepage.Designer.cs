@@ -84,9 +84,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(366, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(358, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(970, 120);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -96,7 +97,6 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(984, 152);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -123,7 +123,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(368, 31);
             this.textBox1.TabIndex = 4;
-            this.textBox1.Text = "Your Recent:";
+            this.textBox1.Text = "Your Recent game:";
             // 
             // button3
             // 
@@ -556,6 +556,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Name = "Homepage";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "Homepage";
             this.Load += new System.EventHandler(this.Homepage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
