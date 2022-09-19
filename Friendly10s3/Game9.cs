@@ -232,9 +232,9 @@ namespace Friendly10s3
 
         public void button11_Click(object sender, EventArgs e) // takes to next level///
         {
-            Friendly10s3.Globals.currentlevel++;
-            Friendly10s3.Game9 f8 = new Friendly10s3.Game9();
-            f8.ShowDialog();
+            Friendly10s3.Globals.currentlevel = "Game10";
+            Friendly10s3.Game10 f9 = new Friendly10s3.Game10();
+            f9.ShowDialog();
         }
         public void Progress() /// this subroutine checks if the user is ready to progress to the next level which is when the success count is over 8 ( meaning they have matched four pairs) and when they have made less than two errors. If they have successfully matched four pairs but made more than two errors, only the option to retry that level is provided///
         {

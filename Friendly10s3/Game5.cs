@@ -236,7 +236,7 @@ namespace Friendly10s3
 
         public void button11_Click(object sender, EventArgs e) // takes to next level///
         {
-            Friendly10s3.Globals.currentlevel++;
+            Friendly10s3.Globals.currentlevel = "Game6";
             Friendly10s3.Game6 f6 = new Friendly10s3.Game6();
             f6.ShowDialog();
         }

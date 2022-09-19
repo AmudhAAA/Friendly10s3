@@ -98,7 +98,7 @@ namespace Friendly10s3
             }
             string ec = errorcount.ToString(); /// converts the error count to a string so it can be displayed///
             label1.Text = ec; ///label1 displays the error count///
-            Progress(); /// after each pair is matched, this subroutine runs in case the user is ready to progress to the next level///
+            
 
 
         }
@@ -250,7 +250,7 @@ namespace Friendly10s3
             button8.Visible = true;
             button9.Visible = true;
             button10.Visible = true;//all buttons are made visible///
-            button11.Visible = false;
+            
             button12.Visible = false; ///retry and next level buttons are made invisible///
 
             colourReset(); ///all buttons are reset to their original colour///

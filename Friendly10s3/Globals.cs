@@ -8,6 +8,6 @@ namespace Friendly10s3
 {
     internal class Globals
     {
-        public static int currentlevel = 0;
+        public static string currentlevel = "Game1";
     }
 }
